@@ -1,0 +1,21 @@
+.registration_input{
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid #d3d3d3 !important;
+  border-radius: 0px !important;
+  font-size: 90%;
+}
+
+.form_Label{
+  margin-left: 1%;
+}
+.radioButtons{
+margin-left: 5%;
+}
+.photoClass{
+  margin-left: 10%;
+}
+
+.register_button{
+  width:100% ! important;
+}

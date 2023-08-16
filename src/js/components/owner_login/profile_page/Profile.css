@@ -1,0 +1,55 @@
+.profilecard{
+  margin-top: 1%;
+  width: 45%;
+  background: #fff;
+  display: inline-block;
+  height: 80%;
+  font-family: "Montserrat";
+  position: relative;
+}
+.formLabel{
+  margin-top: 8%;
+  font-size: 100%;
+}
+.ant-alert-success .ant-alert-icon {
+  margin-top: 10px;
+}
+
+.profile_label {
+  font-size: 90%;
+}
+
+.profileTitle{
+  font-family: "Montserrat";
+  margin-top: 1%;
+}
+.updateBtn{
+  width: 50%;
+}
+
+.registrationBtn {
+  background-color: #60c7c1 !important;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.horizontalLine{
+  width: 70%;
+  color: red;
+  height: 1%;
+}
+
+@media only screen and (max-device-width: 425px) and (orientation : portrait) , (max-device-width: 812px) and (orientation : landscape){
+  .profilecard{
+    margin-top: 1%;
+    width: 85%;
+    background: #fff;
+    display: inline-block;
+    height: 80%;
+    font-family: "Montserrat";
+    position: relative;
+  } 
+  .ant-alert-success .ant-alert-icon {
+    margin-top: 10px;
+}
+}

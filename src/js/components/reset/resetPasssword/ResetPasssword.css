@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+.reset-container {
+    width: 100%;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 90vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.reset-pass-header {
+    font-style: bold;
+    font-size: 2.0rem;
+    color: #020001;
+}
+
+.reset-pass-card {
+    padding: 2%;
+    font-style: bold;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border: 1px solid black;
+}
+
+.reset-pass-form-btn {
+    width: 100%;
+}
+
+.reset-pass-form {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (max-width: 990px) {
+    .reset-container {
+        margin-left: 5%;
+        width: 90%;
+    }
+}

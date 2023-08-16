@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.remember_me {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.txt1 {
+  margin-top: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.txt2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #21bfb2;
+  line-height: 1.5;
+}
+
+.cardLogin {
+  width: 50%;
+  background: #fff;
+  border-radius: 12px;
+  display: inline-block;
+  height: 40%;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 95%;
+  font-size: 16px !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.form__field {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 1rem !important;
+  color: #000;
+  padding: 7px 0;
+  background: transparent;
+  padding-left: 3%;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  ~.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem !important;
+    color: #11998e;
+    font-weight: 700;
+  }
+
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image-slice: 1;
+}
+
+/* reset input */
+.form__field {
+  &:required,
+  &:invalid {
+    box-shadow: none;
+  }
+}
+
+.loginForm {
+  width: 100%;
+}
+
+.loginBtn {
+  width: 100% !important;
+  background-color: #21bfb2 !important;
+  box-shadow: 1px 5px 20px -5px rgba(0, 0, 0, 0.4);
+  border: none !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-header {
+  color: #020001;
+  padding: 4% 0 0;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.forgotpass_link {
+  width: 100%;
+  text-align: center;
+  font-size: 16px !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.check {
+  opacity: 9;
+  position: relative;
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 767px) {
+  .cardLogin {
+    width: 100%;
+  }
+}
+
+/* Mobile*/
+@media only screen and (device-width: 768px) {
+  .cardLogin {
+    width: 100%;
+  }
+}

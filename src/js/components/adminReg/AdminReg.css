@@ -1,0 +1,141 @@
+.signAdmin {
+  width: 26%;
+  margin-top: 11.5%;
+  background-color: white;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  font-size: 15px;
+  color: black;
+  font-family: "Montserrat";
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.paddingInput {
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+}
+
+.inputAdminFont {
+  color: black;
+  font-size: 13px;
+}
+.inputAdminFont::placeholder {
+  font-weight: bold;
+}
+.form-control:focus {
+  font-size: 16px;
+  border-radius: 2%;
+  transition: border-color 0.2s;
+  color: black;
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image-slice: 1;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.adminRegister {
+  margin-top: 5%;
+  margin-bottom: 4%;
+  background-color: #21bfb2 !important;
+  border-color: #21bfb2 !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.18);
+}
+
+.adminRegister:hover {
+  background-color: #1da99e;
+  border-color: #1da99e;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15), 0 3px 3px rgba(0, 0, 0, 0.18);
+}
+.adminRegister:focus {
+  box-shadow: none;
+}
+
+.txtAdminBottom {
+  font-family: "Montserrat" sans-serif;
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.txtAdminLogin {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #21bfb2;
+  line-height: 1.5;
+}
+.divAdminBottom {
+  text-align: center;
+}
+.errorDiv {
+  color: red;
+  font-size: 13px;
+}
+
+.react-inputs-validation__error___2aXSp {
+  font-weight: bold;
+  font-size: 13px !important;
+}
+/* Mobile */
+@media only screen and (max-device-width: 414px) {
+  .signAdmin {
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .adminRegister {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 320px) {
+  .signAdmin {
+    width: 90%;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .adminRegister {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* Medium-Mobile */
+@media only screen and (max-device-width: 767px) {
+  .signAdmin {
+    width: 90%;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .adminRegister {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* iPad*/
+@media only screen and (device-width: 768px) {
+  .signAdmin {
+    width: 40%;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .adminRegister {
+    width: 70%;
+    margin-left: 25%;
+  }
+}

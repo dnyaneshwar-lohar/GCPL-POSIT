@@ -1,0 +1,118 @@
+.Nav li {
+  line-height: 50px;
+  height: 50px;
+  padding-top: 0;
+  background: #001529;
+  margin-left: 12px;
+}
+
+.Nav-ml-auto li {
+  line-height: 50px;
+  height: 50px;
+  padding-top: 0;
+  background: #001529;
+  margin-left: 12px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #fff !important;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: #808080 !important;
+}
+
+.nav-item {
+  margin-bottom: 3%;
+}
+
+.navbar {
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+  background: #001529 !important;
+}
+
+.navbar-collapse {
+  background: #001529;
+}
+
+.Nav-ml-auto {
+  margin-right: 8px;
+}
+
+.Right {
+  margin-left: -10%;
+}
+
+.avatar {
+  background-color: #9BE3ED  !important;
+}
+
+.avatar:hover{
+  box-shadow: 0 0 0 2px #C0C0C0;
+}
+
+.user-popover-info {
+  width: 120px;
+}
+
+.user-popover-navLink{
+  margin-top: 6%;
+}
+
+.ant-popover-inner {
+  border-radius: 4px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+  border: 1px solid rgba(27,31,35,.15);
+}
+
+.ant-popover-inner-content,
+.ant-popover-title {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-toggler {
+  margin-right: 3%;
+}
+
+.nav-login-btn { 
+  margin-top: 18%;
+  margin-left: -6%;
+}
+
+.dropdown-divider {
+  display: block;
+  height: 0;
+  margin: 8px 0;
+  border-top: 1px solid #e1e4e8;
+}
+
+.header-nav-current-user {
+  padding-bottom: 0;
+  font-size: inherit;
+}
+
+@media (max-width: 990px) {
+  .Right {
+    margin-left: 0%;
+  }
+  
+  .nav-login-btn { 
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+}
+
+.profile_image{
+  border-radius: 50%;
+}

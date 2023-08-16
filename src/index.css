@@ -1,0 +1,28 @@
+body {
+  background-color: #e6e4e4;
+}
+.ant-radio-button-wrapper:last-child {
+margin-right: 10px;
+margin-left: 10px;
+}
+@media only screen and (max-width: 486px) {
+  .ant-radio-button-wrapper:last-child {
+    margin-top:10px;
+    margin-left: 10px;
+  }
+  .ant-picker-cell-inner{
+    padding:0px 5px 0px 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+    .allCards.ant-card-head-title{
+      width:488px;
+    }
+    .ant-card {
+    margin-left: 0px;
+    }
+    .allCards{
+      margin-left:0px;
+    }
+}
+

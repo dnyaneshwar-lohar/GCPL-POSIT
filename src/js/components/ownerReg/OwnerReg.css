@@ -1,0 +1,136 @@
+.sign {
+  width: 33%;
+  margin-top: 1%;
+  margin-bottom: 0.2%;
+  background-color: white;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  font-size: 10px;
+  color: black;
+  padding-top: 1%;
+  font-family: "Montserrat";
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.selectBox {
+  font-size: 10px;
+}
+.label_font_size {
+  font-size: 12px;
+}
+.inputFont {
+  color: black;
+}
+.inputFont::placeholder {
+  font-weight: bold;
+}
+.form-control:focus {
+  font-size: 11.5px;
+  border-bottom: none;
+  border-radius: 2%;
+  color: black;
+  padding-bottom: 6px;
+  font-weight: 700;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.fieldLabel {
+  border: none;
+  padding-left: 3.2%;
+  border-bottom: 1px solid #d3d3d3;
+  border-radius: 0px;
+}
+.fieldBox {
+  margin-left: 0.4%;
+}
+.register {
+  margin-top: 0.1% !important;
+  margin-bottom: 3% !important;
+  background-color: #21bfb2;
+  border-color: #21bfb2;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.18);
+}
+
+.register:hover {
+  background-color: #1da99e;
+  border-color: #1da99e;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15), 0 3px 3px rgba(0, 0, 0, 0.18);
+}
+.register:focus {
+  box-shadow: none;
+}
+
+.status {
+  color: black;
+  font-size: 10px;
+}
+.txtBottom {
+  font-family: "Montserrat" sans-serif;
+  font-size: 12px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.txtLogin {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  color: #21bfb2;
+  line-height: 1.5;
+}
+.divBottom {
+  text-align: center;
+}
+.errorDiv {
+  color: red;
+  font-size: 11.5px;
+}
+.react-inputs-validation__error___2aXSp {
+  font-weight: bold;
+  font-size: 11.5px !important;
+}
+
+/* Medium Mobile */
+@media only screen and (max-device-width: 426px) and (orientation: portrait)  {
+  .fieldLabel {
+    width: 25%;
+  }
+  .sign {
+    width: 85%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 4%;
+    padding-top: 5%;
+  }
+  .selectBox {
+    width: 50%;
+  }
+  .register {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+/* iPad*/
+@media only screen and (max-device-width: 768px) and (orientation: portrait), (max-device-width: 1024px) and (orientation: landscape){
+  .sign {
+    width: 50%;
+  }
+}
+
+/* small screen */
+@media only screen and (max-device-width: 375px) and (orientation: portrait){
+
+  .sign {
+    width: 85%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 4%;
+    padding-top: 5%;
+  }
+}

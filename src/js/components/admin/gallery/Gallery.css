@@ -1,0 +1,41 @@
+.selectStyle{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 120%;
+    right: 0;
+    margin: auto;
+    width: 150px;
+}
+
+.draggerStyle{
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    bottom: 0;
+    left: 25%;
+    right: 0;
+    margin: auto;
+}
+
+.uploadStyle{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 40%;
+    right: 0;
+    margin: auto;
+    width: 100px;
+}
+
+@media only screen and (max-device-width: 425px){  
+    .draggerStyle{
+        width: 100px;
+        position: fixed;
+        top: 50%;
+        bottom: 0;
+        left: 48%;
+        right: 0;
+        margin: auto;
+    }
+}

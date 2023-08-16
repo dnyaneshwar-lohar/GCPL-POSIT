@@ -1,0 +1,30 @@
+.registration_input{
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid #d3d3d3 !important;
+  border-radius: 0px !important;
+}
+
+.modalRegister{
+  font-family: "Montserrat";
+}
+
+.Confirm_button{
+    width: 100% ! important;
+}
+
+.Confirm_button_disabled
+{
+  width: 100% ! important;
+  pointer-events: none;
+}
+
+.loading {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+.tooltip_span {
+  cursor: not-allowed;
+}

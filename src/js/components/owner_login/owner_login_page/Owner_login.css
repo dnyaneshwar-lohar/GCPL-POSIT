@@ -1,0 +1,13 @@
+.modalRegister {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.formTitle {
+  text-align: center;
+  font-family: "Montserrat";
+  margin-top: 2%;
+  color: black;
+}

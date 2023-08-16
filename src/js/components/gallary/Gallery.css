@@ -1,0 +1,71 @@
+.image-gallery-image{
+    height: 300px !important;
+    /* object-fit: fill !important; */
+}
+.image-gallery-thumbnail{
+    width: 8%;
+    height: 8%;
+}
+
+.loaderStyle{
+    margin-left: 45%;
+}
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+
+    width: 30px;
+}
+
+.tournamentYr{
+    font-family:"Book Antiqua";
+    font-size:2vw;
+    color: #160542;
+    padding-top: 2%;
+}
+
+.SRLstyle{  
+    width: 70px;
+    height: 70px;
+    border:5px solid white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 600px) and (min-height: 400px) {
+    .image-gallery-image {
+        height: 480px !important;
+    }
+    .SRLstyle {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+.imageGalleryborder{
+    border:3px solid white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-border {
+    display: block;
+    width: 34%;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 20px auto;
+}
+
+.containerdata {
+  position: relative;  
+}
+
+.buttondata {
+  position: absolute;    
+  font-weight: bold;
+  top: -10px;
+  right: -5px;
+  float: right;  
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.containerdata:hover .buttondata {
+  opacity: 1;
+}

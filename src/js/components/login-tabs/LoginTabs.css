@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.tabs {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  width: 45%;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.tab-buttons button {
+  margin-bottom: 5px;
+  width: 22%;
+  font-size: 20px;
+  background: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
+  transition: all ease-in-out 0.2s;
+  border-bottom: 2px solid transparent;
+  border-top: 1%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #42b3f4 !important;
+  color: black !important ;
+}
+
+/* Mobile */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .tabs {
+    width: 85%;
+  }
+  .tab-buttons button {
+    width: 45%;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 414px) {
+  .tabs {
+    width: 85%;
+  }
+  .tab-buttons button {
+    width: 45%;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 320px) {
+  .tabs {
+    width: 90%;
+  }
+  .tab-buttons button {
+    width: 45%;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/* iPad */
+@media only screen and (device-width: 768px) {
+  .tabs {
+    width: 40%;
+  }
+  .tab-buttons button {
+    width: 45%;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/* iPad Pro */
+@media only screen and (device-width: 1024px) {
+  .tabs {
+    width: 60%;
+  }
+  .tab-buttons button {
+    width: 25%;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
