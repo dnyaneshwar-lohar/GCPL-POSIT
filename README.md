@@ -2,10 +2,8 @@
 
 ### Setup
 
-Clone the reposistory `git@github.com:satishjshinde/gcpl-sports.git`
-
 ```bash
-cd gcpl-sports
+cd GCPL-POSIT
 yarn install
 yarn start
 
